@@ -1,0 +1,9 @@
+.idea/
+.code/
+node_modules/
+lib/
+coverage/
+output/
+/evaluation/
+
+package-lock.json

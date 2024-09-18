@@ -1,0 +1,7 @@
+src/
+node_modules/
+tests/
+coverage/
+.idea/
+output/
+json/

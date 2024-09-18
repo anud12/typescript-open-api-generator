@@ -1,0 +1,9 @@
+stages:          # List of stages for jobs, and their order of execution
+  - install
+
+install-job:       # This job runs in the build stage, which runs first.
+  stage: install
+  image: node:16
+  script:
+    - npm i --verbose
+
